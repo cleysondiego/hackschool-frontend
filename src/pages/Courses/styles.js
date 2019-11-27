@@ -18,15 +18,16 @@ export const CourseList = styled.ul`
 `;
 
 export const Course = styled.li`
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
-  color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 16px;
-
-  & > img {
+  & > a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  & > a > img {
     margin-right: 10px;
     height: 100px;
     border-radius: 50%;

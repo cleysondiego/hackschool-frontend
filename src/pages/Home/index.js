@@ -1,16 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-import List from '../../components/List';
-import {
-  Container,
-  CourseCard,
-  CourseCardDescription,
-  CourseCardTitle,
-  EventCard,
-  EventCardDescription,
-  EventCardTitle,
-  Content,
-} from './styles';
+import { Container, Content } from './styles';
 import Button from '../../components/Button';
 import dev from '../../assets/dev.jpg';
 

@@ -8,6 +8,7 @@ import NewRoom from './pages/NewRoom';
 import Room from './pages/Room';
 import Rankings from './pages/Rankings';
 import Courses from './pages/Courses';
+import Motivation from './pages/Motivation';
 
 export default function Routes() {
   return (
@@ -19,6 +20,7 @@ export default function Routes() {
       <Route path="/new-room" component={NewRoom} />
       <Route path="/room" component={Room} />
       <Route path="/rankings" component={Rankings} />
+      <Route path="/motivation" component={Motivation} />
     </Switch>
   );
 }

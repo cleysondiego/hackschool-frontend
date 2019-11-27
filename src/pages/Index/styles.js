@@ -5,8 +5,23 @@ export const Container = styled.div`
   margin: 0 auto;
 
   & > center {
-    & > button {
+    margin: 20px;
+
+    & > a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
       margin: 20px;
+    }
+
+    & > a:first-of-type {
+      border-right: 2px solid #fff;
+      padding-right: 20px;
+      margin-right: 0;
+    }
+
+    & > a:hover {
+      color: #ce4e4e;
     }
   }
 `;
