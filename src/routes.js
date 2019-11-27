@@ -11,6 +11,7 @@ import Courses from './pages/Courses';
 import Motivation from './pages/Motivation';
 import Projects from './pages/Projects';
 import NewProject from './pages/NewProject';
+import Events from './pages/Events';
 
 export default function Routes() {
   return (
@@ -25,6 +26,7 @@ export default function Routes() {
       <Route path="/motivation" component={Motivation} />
       <Route path="/projects" component={Projects} />
       <Route path="/new-project" component={NewProject} />
+      <Route path="/events" component={Events} />
     </Switch>
   );
 }
