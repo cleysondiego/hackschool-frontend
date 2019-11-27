@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const StyledForm = styled(Form)`
   display: flex;
   flex-direction: column;
-  height: 50%;
+  min-height: 50%;
   width: 25%;
   background: #fff;
   padding: 15px;
@@ -39,6 +39,7 @@ export const StyledInput = styled(Input)`
   background: #eaeaea;
   text-align: center;
   border: 0;
+  margin: 10px 0;
 
   &:first-of-type {
     margin-top: 10px;
