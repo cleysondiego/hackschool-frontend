@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import List from '../../components/List';
 import {
@@ -6,45 +6,36 @@ import {
   CourseCard,
   CourseCardDescription,
   CourseCardTitle,
+  EventCard,
+  EventCardDescription,
+  EventCardTitle,
+  Content,
 } from './styles';
+import Button from '../../components/Button';
+import dev from '../../assets/dev.jpg';
 
 export default function Home() {
   return (
     <Container>
-      <List title="Cursos">
-        <CourseCard>
-          <img
-            src="https://static.imagemwhats.com.br/content/assetz/uploads/2017/04/imagem-engracada-de-bom-sabado.jpg"
-            alt="Imagem doida"
-          />
+      <Content>
+        <div>
+          <h1>
+            <span>Salve</span> manolo
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            quis tristique lectus. Sed nisl ante, dignissim sit amet nulla ut,
+            accumsan congue eros. Sed orci dolor, varius imperdiet luctus et,
+            tempus eu justo. Nullam ac sem massa
+          </p>
           <div>
-            <CourseCardTitle>Título daora</CourseCardTitle>
-            <CourseCardDescription>Descrição fodooona</CourseCardDescription>
+            <Button kind="primary">Motivação</Button>
+            <Button>Cursos</Button>
           </div>
-        </CourseCard>
+        </div>
 
-        <CourseCard>
-          <img
-            src="https://static.imagemwhats.com.br/content/assetz/uploads/2017/04/imagem-engracada-de-bom-sabado.jpg"
-            alt="Imagem doida"
-          />
-          <div>
-            <CourseCardTitle>Título daora</CourseCardTitle>
-            <CourseCardDescription>Descrição fodooona</CourseCardDescription>
-          </div>
-        </CourseCard>
-
-        <CourseCard>
-          <img
-            src="https://static.imagemwhats.com.br/content/assetz/uploads/2017/04/imagem-engracada-de-bom-sabado.jpg"
-            alt="Imagem doida"
-          />
-          <div>
-            <CourseCardTitle>Título daora</CourseCardTitle>
-            <CourseCardDescription>Descrição fodooona</CourseCardDescription>
-          </div>
-        </CourseCard>
-      </List>
+        <img src={dev} alt="adas" />
+      </Content>
     </Container>
   );
 }

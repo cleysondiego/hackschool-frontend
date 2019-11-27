@@ -6,12 +6,15 @@ export const Container = styled.div`
 `;
 
 export const StudentsList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-row-gap: 20px;
+  margin-top: 20px;
 `;
 
-export const Student = styled.li``;
+export const Student = styled.li`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+`;
 
 export const Title = styled.h1``;

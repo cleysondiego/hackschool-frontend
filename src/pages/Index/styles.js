@@ -24,9 +24,16 @@ export const Room = styled.li`
   color: yellow;
   border: 1px solid yellow;
   margin: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   cursor: pointer;
   justify-self: center;
+
+  & > a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
 `;

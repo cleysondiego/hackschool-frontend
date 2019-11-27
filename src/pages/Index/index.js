@@ -11,13 +11,21 @@ export default function Index() {
         <Link to="/new-room">Adicionar nova sala</Link>
       </center>
       <RoomList>
-        <Room>Sala 1</Room>
-        <Room>Sala 2</Room>
-        <Room>Sala 3</Room>
-        <Room>Sala 4</Room>
-        <Room>Sala 5</Room>
-        <Room>Sala 6</Room>
-        <Room>Sala 7</Room>
+        <Room>
+          <Link to="/room/1">Sala 1</Link>
+        </Room>
+
+        <Room>
+          <Link to="/room/2">Sala 2</Link>
+        </Room>
+
+        <Room>
+          <Link to="/room/3">Sala 3</Link>
+        </Room>
+
+        <Room>
+          <Link to="/room/4">Sala 4</Link>
+        </Room>
       </RoomList>
     </Container>
   );

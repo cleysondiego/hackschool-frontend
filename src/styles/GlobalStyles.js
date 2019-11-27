@@ -20,6 +20,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    /* background: linear-gradient(45deg, rgba(34,29,35,1) 0%, rgba(65,65,65,1) 100%); */
+    background: #1e0138;
   }
 
   body, input, button {

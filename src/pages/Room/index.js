@@ -10,15 +10,29 @@ export default function Room() {
       </center>
 
       <StudentsList>
-        <Student>Cleysu</Student>
+        <Student>
+          <p>01</p>
+          Cleysu
+          <p>3000</p>
+        </Student>
 
-        <Student>Cleysu</Student>
+        <Student>
+          <p>01</p>
+          Cleysu
+          <p>3000</p>
+        </Student>
 
-        <Student>Cleysu</Student>
+        <Student>
+          <p>01</p>
+          Cleysu
+          <p>3000</p>
+        </Student>
 
-        <Student>Cleysu</Student>
-
-        <Student>Cleysu</Student>
+        <Student>
+          <p>01</p>
+          Cleysu
+          <p>3000</p>
+        </Student>
       </StudentsList>
     </Container>
   );

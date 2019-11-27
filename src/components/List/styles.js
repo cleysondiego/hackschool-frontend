@@ -11,4 +11,5 @@ export const Title = styled.h1`
   font-size: 2em;
   text-align: center;
   margin: 20px 0;
+  color: #d89a36;
 `;
