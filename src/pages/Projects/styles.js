@@ -28,7 +28,6 @@ export const Container = styled.div`
 export const ProjectList = styled.ul``;
 
 export const Project = styled.li`
-  height: 200px;
   border: 1px solid #ccc;
   border-radius: 16px;
   padding: 20px;
@@ -63,5 +62,27 @@ export const Tags = styled.div`
 
   & > p {
     margin-right: 10px;
+  }
+`;
+
+export const Courses = styled.div`
+  margin-top: 20px;
+
+  & > h1 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  & > p {
+    color: #fff;
+    margin-bottom: 5px;
+
+    & > a {
+      color: #ff0000;
+
+      &:hover {
+        color: #ce4e4e;
+      }
+    }
   }
 `;

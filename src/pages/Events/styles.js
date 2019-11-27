@@ -11,20 +11,20 @@ export const Container = styled.div`
 `;
 
 export const EventsList = styled.ul`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 `;
 
 export const Event = styled.li`
+  justify-self: center;
+  width: 40%;
+
   & > a {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
     color: #fff;
-    width: 40%;
     height: 300px;
     border: 1px solid #ccc;
     background: #1c294a;
@@ -32,7 +32,8 @@ export const Event = styled.li`
     padding: 10px;
 
     & > img {
-      height: 100px;
+      height: 60px;
+      width: 60px;
     }
 
     & > div {
