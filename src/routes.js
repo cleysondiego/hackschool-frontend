@@ -10,6 +10,7 @@ import Rankings from './pages/Rankings';
 import Courses from './pages/Courses';
 import Motivation from './pages/Motivation';
 import Projects from './pages/Projects';
+import Events from './pages/Events';
 
 export default function Routes() {
   return (
@@ -23,6 +24,7 @@ export default function Routes() {
       <Route path="/rankings" component={Rankings} />
       <Route path="/motivation" component={Motivation} />
       <Route path="/projects" component={Projects} />
+      <Route path="/events" component={Events} />
     </Switch>
   );
 }
