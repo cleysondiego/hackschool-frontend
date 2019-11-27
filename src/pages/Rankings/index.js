@@ -16,49 +16,49 @@ export default function Rankings() {
         {showStudentRanking ? (
           <StudentsList>
             <Student>
-              <p>01</p>
+              <p># 01</p>
               Cleysu
-              <p>3000</p>
+              <p>500</p>
             </Student>
 
             <Student>
-              <p>01</p>
-              Cleysu
-              <p>3000</p>
+              <p># 02</p>
+              Polettinho
+              <p>400</p>
             </Student>
 
             <Student>
-              <p>01</p>
-              Cleysu
-              <p>3000</p>
+              <p># 03</p>
+              Sandersson
+              <p>300</p>
             </Student>
 
             <Student>
-              <p>01</p>
-              Cleysu
-              <p>3000</p>
+              <p># 04</p>
+              Davi
+              <p>200</p>
             </Student>
 
             <Student>
-              <p>01</p>
-              Cleysu
-              <p>3000</p>
+              <p># 05</p>
+              Raffa Moreira Mano
+              <p>190</p>
             </Student>
           </StudentsList>
         ) : (
           <StudentsList>
             <Student>
-              <p>01</p>
-              Sala 1<p>10000</p>
+              <p># 01</p>
+              Sala 1<p>1000</p>
             </Student>
 
             <Student>
-              <p>02</p>
-              Sala 2<p>1000</p>
+              <p># 02</p>
+              Sala 2<p>500</p>
             </Student>
 
             <Student>
-              <p>03</p>
+              <p># 03</p>
               Sala 3<p>100</p>
             </Student>
           </StudentsList>

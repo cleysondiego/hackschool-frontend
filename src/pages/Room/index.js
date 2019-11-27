@@ -12,25 +12,25 @@ export default function Room() {
       <StudentsList>
         <Student>
           <p>01</p>
-          Cleysu
+          Polette
           <p>3000</p>
         </Student>
 
         <Student>
-          <p>01</p>
-          Cleysu
+          <p>02</p>
+          Bolette
           <p>3000</p>
         </Student>
 
         <Student>
-          <p>01</p>
-          Cleysu
+          <p>03</p>
+          Luan Santana
           <p>3000</p>
         </Student>
 
         <Student>
-          <p>01</p>
-          Cleysu
+          <p>04</p>
+          PIZZA
           <p>3000</p>
         </Student>
       </StudentsList>
