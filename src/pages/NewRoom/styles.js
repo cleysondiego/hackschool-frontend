@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { Form } from '@rocketseat/unform';
+
+import { StyledForm } from '../Login/styles';
 
 export const Container = styled.div`
   align-items: center;
@@ -8,18 +9,22 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 0.938813025210084) 12%,
-    rgba(34, 29, 35, 1) 100%
-  );
+  margin-top: -70px;
 `;
 
-export const StyledForm = styled(Form)`
-  height: 50vh;
-  transform: translate(0, -20%);
+export const RoomStyledForm = styled(StyledForm)`
+  /* height: 50vh;
+  background: #fff;
   border: 1px solid yellow;
   display: flex;
-  width: 50vw;
-  flex-direction: column;
+  flex-direction: column; */
+  width: 30%;
+  justify-content: space-between;
+  & > div:last-of-type {
+    margin-top: 0;
+  }
+
+  /* & > div {
+    height: 20px;
+  } */
 `;

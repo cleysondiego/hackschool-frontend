@@ -1,16 +1,24 @@
 import React from 'react';
-import { Input } from '@rocketseat/unform';
 
 import { Container } from './styles';
-import { StyledForm } from './styles';
+import { StyledInput, Title } from '../Login/styles';
+import Button from '../../components/Button';
+import { RoomStyledForm } from './styles';
 
 export default function NewRoom() {
   return (
     <Container>
-      <StyledForm>
-        <label htmlFor="name">Nome da Sala</label>
-        <Input name="name" />
-      </StyledForm>
+      <RoomStyledForm>
+        <div>
+          <Title>Criar uma sala</Title>
+          <StyledInput name="name" placeholder="Insira o nome da sala" />
+        </div>
+        <center>
+          <Button kind="primary" type="submit">
+            Criar
+          </Button>
+        </center>
+      </RoomStyledForm>
     </Container>
   );
 }

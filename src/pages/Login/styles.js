@@ -12,7 +12,7 @@ export const StyledForm = styled(Form)`
   display: flex;
   flex-direction: column;
   height: 50%;
-  width: 24%;
+  width: 25%;
   background: #fff;
   padding: 15px;
   border-top: 10px solid #ff0000;
@@ -20,16 +20,6 @@ export const StyledForm = styled(Form)`
   & > div:last-of-type {
     height: 100%;
     margin-top: 20px;
-
-    & > div > input {
-      background: #eaeaea;
-      text-align: center;
-      border: 0;
-    }
-
-    & > div > input:first-of-type {
-      margin-top: 10px;
-    }
 
     & > center {
       margin-top: 20px;
@@ -45,6 +35,13 @@ export const Title = styled.h1`
 export const StyledInput = styled(Input)`
   height: 50px;
   width: 100%;
+  background: #eaeaea;
+  text-align: center;
+  border: 0;
+
+  &:first-of-type {
+    margin-top: 10px;
+  }
 `;
 
 export const Button = styled.button`
