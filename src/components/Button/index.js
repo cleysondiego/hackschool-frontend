@@ -2,6 +2,10 @@ import React from 'react';
 
 import { StyledButton } from './styles';
 
-export default function Button({ children, kind }) {
-  return <StyledButton kind={kind}>{children}</StyledButton>;
+export default function Button({ children, kind, type }) {
+  return (
+    <StyledButton kind={kind} type={type}>
+      {children}
+    </StyledButton>
+  );
 }

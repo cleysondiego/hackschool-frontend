@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
-import { Input } from '@rocketseat/unform';
+import Button from '../../components/Button';
 
-import { Container, StyledForm } from './styles';
+import { Container, StyledForm, Title, StyledInput } from './styles';
 
 export default function Login() {
   const [redirect, setRedirect] = useState(false);
@@ -20,16 +20,26 @@ export default function Login() {
     <Container>
       <StyledForm onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="email">Email:</label>
-          <Input name="email" />
+          <Title>Login</Title>
         </div>
-
         <div>
-          <label htmlFor="password">Senha:</label>
-          <Input name="password" type="password" />
-        </div>
+          <div>
+            <StyledInput name="email" placeholder="Informe seu e-mail" />
+          </div>
 
-        <button type="submit">Entrar</button>
+          <div>
+            <StyledInput
+              name="password"
+              type="password"
+              placeholder="Informe sua senha"
+            />
+          </div>
+          <center>
+            <Button type="submit" kind="primary">
+              Entrar
+            </Button>
+          </center>
+        </div>
       </StyledForm>
     </Container>
   );
