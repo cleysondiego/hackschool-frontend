@@ -35,10 +35,12 @@ export const RoomList = styled.ul`
 export const Room = styled.li`
   width: 200px;
   height: 100px;
-  background: #000;
-  color: yellow;
-  border: 1px solid yellow;
+  background: #221d23;
+  border: 3px solid #040d17;
   margin: 10px 0;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bold;
 
   cursor: pointer;
   justify-self: center;
