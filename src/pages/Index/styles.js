@@ -35,7 +35,7 @@ export const RoomList = styled.ul`
 export const Room = styled.li`
   width: 200px;
   height: 100px;
-  background: #221d23;
+  background: #1c294a;
   border: 3px solid #040d17;
   margin: 10px 0;
   border-radius: 16px;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledButton = styled.button`
   border-radius: 50px;
-  background: ${props => (props.kind === 'primary' ? '#ff0000' : '#221d23')};
+  background: ${props => (props.kind === 'primary' ? '#ff0000' : '#1c294a')};
   border: 0;
   width: 200px;
   font-size: 14px;

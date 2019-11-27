@@ -9,6 +9,7 @@ import Room from './pages/Room';
 import Rankings from './pages/Rankings';
 import Courses from './pages/Courses';
 import Motivation from './pages/Motivation';
+import Projects from './pages/Projects';
 
 export default function Routes() {
   return (
@@ -21,6 +22,7 @@ export default function Routes() {
       <Route path="/room" component={Room} />
       <Route path="/rankings" component={Rankings} />
       <Route path="/motivation" component={Motivation} />
+      <Route path="/projects" component={Projects} />
     </Switch>
   );
 }

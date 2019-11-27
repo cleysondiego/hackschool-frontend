@@ -26,10 +26,12 @@ export const Course = styled.li`
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 16px;
-  }
-  & > a > img {
-    margin-right: 10px;
-    height: 100px;
-    border-radius: 50%;
+    background: #1c294a;
+
+    & > img {
+      margin-right: 10px;
+      height: 100px;
+      border-radius: 50%;
+    }
   }
 `;

@@ -15,6 +15,7 @@ export default function Header() {
         <Link to="/blogs">Blogs</Link>
         <Link to="/events">Eventos</Link>
         <Link to="/motivation">Motivação</Link>
+        <Link to="/projects">Projetos</Link>
         <Link to="/login">Login</Link>
       </div>
     </Container>
